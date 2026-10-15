@@ -22,6 +22,6 @@ I also have private work-in-progress repositories for a 3D drone flight simulato
 
 I'm interested in software, machine learning, and robotics internships where I can keep learning by building.
 
-[LinkedIn](https://www.linkedin.com/in/jerel-clark/) · [Project portfolio](index.html)
+[LinkedIn](https://www.linkedin.com/in/jerel-clark/) · [All repositories](https://github.com/jerelclark2-bit?tab=repositories)
 
 <sub>Every project here is a work in progress. I try to document what works, what doesn't, and what I still need to validate.</sub>
