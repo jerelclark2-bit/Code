@@ -16,7 +16,7 @@ I like building projects that give me something real to test. Lately, that means
 
 - Computer vision, error analysis, and what makes a machine-learning result trustworthy
 - Robotics, control, and autonomy
-- Python, C/CS fundamentals, JavaScript/TypeScript, and shipping usable software
+- Python, CS fundamentals, JavaScript/TypeScript, and shipping usable software
 
 I also have private work-in-progress repositories for a 3D drone flight simulator (**AeroScan**) and a startup interface (**JIG**).
 
