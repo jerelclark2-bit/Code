@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#141e25">
+  <meta name="description" content="Projects by Jerel Clark: machine learning, robotics, and software engineering at Dartmouth.">
+  <title>Jerel Clark / Projects</title>
+  <style>
+    :root{color-scheme:light;--bg:#f2f0e9;--paper:#fffef9;--ink:#192a31;--muted:#596d70;--line:#bcc9c4;--accent:#27774f;--highlight:#f5d574}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);font-family:Verdana,Arial,sans-serif;color:var(--ink);font-size:15px;line-height:1.65}
+    a{color:var(--accent)}a:focus-visible,button:focus-visible{outline:3px solid var(--highlight);outline-offset:4px}.wrap{width:min(1070px,calc(100% - 40px));margin:auto}
+    .top{background:#172630;color:#f4f5ea;border-bottom:5px solid #93c49b}.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:68px}
+    .wordmark{font-family:'Courier New',monospace;font-weight:bold;font-size:17px;text-decoration:none;color:#fff;letter-spacing:.2px}.wordmark span{color:#a3e4b4}.nav{display:flex;flex-wrap:wrap;gap:18px}.nav a{color:#d5e1df;text-decoration:none;font:12px 'Courier New',monospace}.nav a:hover{text-decoration:underline}
+    .hero{padding:72px 0 45px;border-bottom:1px solid var(--line)}.mini{font:700 12px 'Courier New',monospace;letter-spacing:2px;color:var(--accent)}
+    h1{font:900 clamp(39px,7vw,78px)/1.04 Georgia,serif;letter-spacing:-2px;margin:20px 0 18px;max-width:800px}h1 em{font-style:normal;color:var(--accent)}
+    .lede{max-width:710px;font-size:19px;line-height:1.65;color:#425960}.actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:28px}
+    .button{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font:bold 13px 'Courier New',monospace;padding:11px 16px;border:2px solid var(--accent);box-shadow:3px 3px 0 #13262e}.button.secondary{background:transparent;color:#1c5f42}.button:hover{transform:translateY(-2px)}
+    section{padding:40px 0}.eyebrow{font:bold 12px 'Courier New',monospace;color:var(--accent);text-transform:uppercase}.section-title{font:700 32px Georgia,serif;margin:6px 0 9px}.sub{color:var(--muted);margin:0 0 25px}
+    .projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.project{background:var(--paper);border:2px solid #acbcb6;padding:23px 23px 18px;box-shadow:4px 5px 0 #d4ded5;min-width:0}
+    .project.featured{grid-column:1/-1;display:grid;grid-template-columns:1.15fr .85fr;gap:20px}.number{font:bold 12px 'Courier New',monospace;color:#718980}.project h3{margin:13px 0 8px;font:700 25px Georgia,serif}
+    .project p{color:#4e6467;margin:0 0 17px}.project .tags{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 20px}.tags span{font:11px 'Courier New',monospace;padding:5px 8px;background:#e7efe8;border:1px solid #c1d0c2;color:#345d4d}
+    .links{display:flex;gap:18px;flex-wrap:wrap}.links a{font:bold 12px 'Courier New',monospace;text-decoration:underline;text-underline-offset:4px}.measure{border-left:3px solid #86b996;padding-left:18px;margin-top:6px}
+    .measure strong{display:block;font:700 35px 'Courier New',monospace;color:#236f48}.measure small{font:12px/1.6 Verdana,Arial,sans-serif;color:#58716a;display:block}
+    .smallgrid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.smallgrid .block{padding:23px;border:1px solid var(--line);background:#fafaf5}
+    .smallgrid h3{font:700 22px Georgia,serif;margin:0 0 9px}.smallgrid p{margin:0;color:#4f6264}
+    .aside{padding:25px;background:#fff4d7;border-left:5px solid #dcb758;font-size:14px;margin-top:10px}
+    footer{background:#172630;color:#d7e5dc;padding:32px 0;margin-top:28px;font:12px 'Courier New',monospace}footer a{color:#ace9be}footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    @media(max-width:760px){.hero{padding:48px 0 36px}.top .wrap{align-items:flex-start;flex-direction:column;padding:16px 0;gap:8px}.projects,.smallgrid{grid-template-columns:1fr}.project.featured{grid-template-columns:1fr}.measure{margin-top:0}.lede{font-size:16px}.wrap{width:min(1070px,calc(100% - 28px))}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap">
+    <a class="wordmark" href="./">jerel<span>@</span>projects<span>:~$</span></a>
+    <nav class="nav" aria-label="Main navigation"><a href="#projects">PROJECTS</a><a href="#about">ABOUT</a><a href="https://github.com/jerelclark2-bit">GITHUB ↗</a></nav>
+  </div></header>
+  <main>
+    <div class="wrap">
+      <div class="hero">
+        <span class="mini">JEREL CLARK / DARTMOUTH '30</span>
+        <h1>I like building things that <em>actually do something.</em></h1>
+        <p class="lede">Computer science, machine learning, and robotics. Mostly projects I can run, test, learn from, and improve. Here's a few of them.</p>
+        <div class="actions"><a class="button" href="#projects">SEE THE PROJECTS ↓</a><a class="button secondary" href="https://github.com/jerelclark2-bit">GITHUB PROFILE ↗</a></div>
+      </div>
+      <section id="projects">
+        <span class="eyebrow">// A FEW THINGS I'VE MADE</span>
+        <h2 class="section-title">Selected projects</h2>
+        <p class="sub">Working prototypes, not finished products. The code and limitations are documented.</p>
+        <div class="projects">
+          <article class="project featured">
+            <div>
+              <span class="number">PROJECT 01 / COMPUTER VISION</span>
+              <h3>BarnacleAI</h3>
+              <p>Can a small CNN count the barnacles in a photograph? I trained a detector and a separate regression baseline, then built a review interface to see where the estimates break down.</p>
+              <p>The labels are incomplete, so results are comparisons against annotation proxies, not validated biological accuracy.</p>
+              <div class="tags"><span>PYTHON</span><span>PYTORCH</span><span>SCIKIT-LEARN</span><span>TENSORFLOW.JS</span></div>
+              <div class="links"><a href="https://github.com/jerelclark2-bit/Barnacle-A.I">SOURCE ↗</a><a href="https://jerelclark2-bit.github.io/Barnacle-A.I/">TRY THE DEMO ↗</a><a href="https://github.com/jerelclark2-bit/Barnacle-A.I/blob/main/RESULTS.md">EXPERIMENT DETAILS ↗</a></div>
+            </div>
+            <div class="measure">
+              <span class="eyebrow">HELD-OUT EVALUATION</span>
+              <strong>12.57</strong>
+              <small>Mean absolute count difference per evaluated tile, measured against incomplete annotation labels. Not an ecological accuracy estimate.</small>
+              <p style="margin-top:20px">Two labeled photos, one for training and one held out. This is a prototype with a serious data limitation.</p>
+            </div>
+          </article>
+          <article class="project">
+            <span class="number">PROJECT 02 / BROWSER GAME</span>
+            <h3>GREENLIGHT 🏀</h3>
+            <p>Little arcade basketball game with shot timing, blocks, scoring, and shared-keyboard two-player mode. A nod to the old browser games I grew up with.</p>
+            <div class="tags"><span>THREE.JS</span><span>JAVASCRIPT</span><span>3D</span></div>
+            <div class="links"><a href="https://github.com/jerelclark2-bit/Greenlight_dali">SOURCE ↗</a><a href="https://jerelclark2-bit.github.io/Greenlight_dali/">PLAY ↗</a></div>
+          </article>
+          <article class="project">
+            <span class="number">PROJECT 03 / EVERYDAY SOFTWARE</span>
+            <h3>NeuroFridge</h3>
+            <p>A tiny inventory app for things in your fridge: barcode entry, quantities, expiry warnings, search, and CSV export. Saves locally in your browser.</p>
+            <div class="tags"><span>JAVASCRIPT</span><span>LOCAL STORAGE</span><span>NODE TESTS</span></div>
+            <div class="links"><a href="https://github.com/jerelclark2-bit/neuro-fridge">SOURCE ↗</a><a href="https://jerelclark2-bit.github.io/neuro-fridge/">OPEN APP ↗</a></div>
+          </article>
+        </div>
+      </section>
+      <section id="about">
+        <span class="eyebrow">// WHAT'S NEXT</span>
+        <h2 class="section-title">Trying to make software smarter and more useful.</h2>
+        <div class="smallgrid">
+          <div class="block"><h3>What I'm learning</h3><p>Computer vision, linear algebra for machine learning, Python, robotics, and autonomy. I care about understanding the math and testing what the model actually learned.</p></div>
+          <div class="block"><h3>On the workbench</h3><p>AeroScan is a private 3D drone-flight prototype. JIG is an early UI concept for founder/investor discovery. Both are works in progress.</p></div>
+        </div>
+        <p class="aside"><strong>One rule:</strong> a project being deployed isn't the same as its predictions being right. I try to be clear about which parts are working and what still needs to be validated.</p>
+      </section>
+    </div>
+  </main>
+  <footer><div class="wrap"><span>MADE BY JEREL CLARK · 2026</span><span><a href="https://www.linkedin.com/in/jerel-clark/">LINKEDIN ↗</a> &nbsp; <a href="https://github.com/jerelclark2-bit">GITHUB ↗</a></span></div></footer>
+</body>
+</html>
