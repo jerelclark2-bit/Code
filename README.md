@@ -1,33 +1,27 @@
-# Jerel Clark
+# Hey, I'm Jerel 👋
 
-**Computer science, machine learning, and robotics @ Dartmouth College.**
+I'm a Dartmouth College undergraduate (Class of 2030) interested in **machine learning, robotics, and software engineering**.
 
-I like building things I can test, break, and explain. These are a few of my projects, from computer vision experiments to arcade games and everyday software.
+I like building projects that give me something real to test. Lately, that means teaching a model to find barnacles in photos, experimenting with 3D simulations, and building small tools that people can actually use.
 
-## Selected work
+### Things I've built
 
-| Project | What I built | Try it |
+| Project | The interesting part | Code / demo |
 | --- | --- | --- |
-| [BarnacleAI](https://github.com/jerelclark2-bit/Barnacle-A.I) | A computer vision research prototype combining a small trained CNN, a Ridge regression baseline, and an image-review workflow. The data and labels are limited, so counts are estimates, not validated ecological measurements. | [Browser demo](https://jerelclark2-bit.github.io/Barnacle-A.I/) |
-| [Greenlight](https://github.com/jerelclark2-bit/Greenlight_dali) | A tiny 3D basketball game with shot timing, blocking, scores, and local two-player mode. Built in JavaScript and Three.js. | [Play](https://jerelclark2-bit.github.io/Greenlight_dali/) |
-| [NeuroFridge](https://github.com/jerelclark2-bit/neuro-fridge) | Barcode-friendly fridge inventory with quantities, expiry tracking, search, and CSV export. It saves data locally in your browser. | [Try it](https://jerelclark2-bit.github.io/neuro-fridge/) |
+| **BarnacleAI** | Trained a small CNN for proposed barnacle-center detection and compared it against a Ridge regression baseline. Built a browser demo and a separate Python review app. The data is limited, so predictions aren't ground truth. | [Code](https://github.com/jerelclark2-bit/Barnacle-A.I) · [Demo](https://jerelclark2-bit.github.io/Barnacle-A.I/) |
+| **GREENLIGHT** 🏀 | Made an old-school 3D basketball game with shot timing, rebounds, blocking, and two-player mode in Three.js. | [Code](https://github.com/jerelclark2-bit/Greenlight_dali) · [Play](https://jerelclark2-bit.github.io/Greenlight_dali/) |
+| **NeuroFridge** | Built a barcode-friendly inventory app with expiry warnings, quantity tracking, search, and CSV export. Browser storage, no cloud backend. | [Code](https://github.com/jerelclark2-bit/neuro-fridge) · [App](https://jerelclark2-bit.github.io/neuro-fridge/) |
 
-### Also on my workbench
+### What I'm learning
 
-**AeroScan** is a private, browser-based drone flight simulator with three 3D courses, built with React and Three.js. **JIG** is a private startup UI prototype exploring founder/investor discovery. Both are in progress, and their source isn't publicly available here.
+- Computer vision, error analysis, and what makes a machine-learning result trustworthy
+- Robotics, control, and autonomy
+- Python, C/CS fundamentals, JavaScript/TypeScript, and shipping usable software
 
-## Tools I have used
+I also have private work-in-progress repositories for a 3D drone flight simulator (**AeroScan**) and a startup interface (**JIG**).
 
-Python, NumPy, PyTorch, scikit-learn, JavaScript/TypeScript, React, Three.js, Git/GitHub, and basic testing with pytest and GitHub Actions.
+I'm interested in software, machine learning, and robotics internships where I can keep learning by building.
 
-## A note on prototypes
+[LinkedIn](https://www.linkedin.com/in/jerel-clark/) · [Project portfolio](index.html)
 
-I label experimental results as experimental. A deployment passing is not the same as a model being accurate; a UI rendering is not the same as a production system. I care about getting the difference right.
-
-## Contact
-
-[GitHub profile](https://github.com/jerelclark2-bit) · [LinkedIn](https://www.linkedin.com/in/jerel-clark/)
-
----
-
-[View the one-page project site](index.html) · [GitHub profile README draft](PROFILE_README.md)
+<sub>Every project here is a work in progress. I try to document what works, what doesn't, and what I still need to validate.</sub>

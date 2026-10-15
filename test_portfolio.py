@@ -30,8 +30,8 @@ class PortfolioChecks(unittest.TestCase):
             elif not link.startswith("https://") and link != "./":
                 self.assertTrue((ROOT / link).exists(), link)
 
-    def test_profile_draft_exists(self):
-        s = (ROOT / "PROFILE_README.md").read_text(encoding="utf-8")
+    def test_profile_readme_exists(self):
+        s = (ROOT / "README.md").read_text(encoding="utf-8")
         for project in ("BarnacleAI", "GREENLIGHT", "NeuroFridge"):
             self.assertIn(project, s)
 
