@@ -4,6 +4,10 @@ I'm a Dartmouth College undergraduate (Class of 2030) interested in **machine le
 
 I like building projects that give me something real to test. Lately, that means teaching a model to find barnacles in photos, experimenting with 3D simulations, and building small tools that people can actually use.
 
+### Personal portfolio
+
+[**View portfolio ↗**](https://portfolio-sigma-black-m1gjm8c44a.vercel.app/) — Research, policy, economics, technology, leadership, and selected work.
+
 ### Things I've built
 
 | Project | The interesting part | Code / demo |
