@@ -14,7 +14,8 @@ I like building projects that give me something real to test. Lately, that means
 | --- | --- | --- |
 | **BarnacleAI** | Trained a small CNN for proposed barnacle-center detection and compared it against a Ridge regression baseline. Built a browser demo and a separate Python review app. The data is limited, so predictions aren't ground truth. | [Code](https://github.com/jerelclark2-bit/Barnacle-A.I) · [Demo](https://jerelclark2-bit.github.io/Barnacle-A.I/) |
 | **GREENLIGHT** 🏀 | Made an old-school 3D basketball game with shot timing, rebounds, blocking, and two-player mode in Three.js. | [Code](https://github.com/jerelclark2-bit/Greenlight_dali) · [Play](https://jerelclark2-bit.github.io/Greenlight_dali/) |
-| **NeuroFridge** | Built a barcode-friendly inventory app with expiry warnings, quantity tracking, search, and CSV export. Browser storage, no cloud backend. | [Code](https://github.com/jerelclark2-bit/neuro-fridge) · [App](https://jerelclark2-bit.github.io/neuro-fridge/) |
+| **NeuroFridge V2** | Built a shared fridge-inventory prototype with barcode scanning, product lookup, visual storage sections, and replacement-cost estimates. | [Code](https://github.com/jerelclark2-bit/neurofridge-v2) · [App](https://neuro-fridge-home.jerelclark-2.chatgpt.site/) |
+| **Asymmetric Upside** | Built a Python stock-research tool with downside-aware scoring and historical pattern matching across 64,353 windows from 408 stocks. | [Code](https://github.com/jerelclark2-bit/asymmetric-upside-screener) |
 
 ### What I'm learning
 
